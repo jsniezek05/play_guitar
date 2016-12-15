@@ -1,0 +1,47 @@
+.topnav {
+  vertical-align: middle;
+}
+.topnav .navbar {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  background-color: #151515;
+  color: #a9a9a9;
+  align-items: center;
+  margin-bottom: 1px;
+}
+.topnav .navbar .logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 115px;
+  font-family: Helvetica sans-serif;
+  font-size: 20px;
+}
+.topnav .navbar .logo:hover {
+  cursor: default;
+  opacity: 0.8;
+}
+.topnav .viewbar {
+  height: 250px;
+  width: 100%;
+  background-color: #151515;
+  justify-content: space-around;
+  align-items: center;
+  display: inline-flex;
+  justify-self: center;
+}
+.topnav .viewbar .img {
+  display: flex;
+  height: 225px;
+  width: 30%;
+  border: #808080 solid 1px;
+  justify-content: center;
+}
+.topnav .viewbar .img:hover {
+  opacity: 0.8;
+}
+.topnav .viewbar .img img {
+  height: 200px;
+  width: 90%;
+}
